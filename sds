@@ -1,0 +1,41 @@
+[33mcommit 12e814b5c98283dce037ff66ce4abd68cddeabff[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Fernando Bartholomeu <fernandobrscunha@gmail.com>
+Date:   Thu Nov 5 17:45:02 2020 -0300
+
+    Criando a tela Meus Avisos e o select
+
+[33mcommit d67c0c200387a2e948ecad68aa880884a36bf662[m
+Author: Fernando Bartholomeu <fernandobrscunha@gmail.com>
+Date:   Thu Nov 5 15:40:04 2020 -0300
+
+    Criando o menu superior
+
+[33mcommit 555f7e1c1f0309bd7e9dd297b5d62eed58c3c033[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Fernando Bartholomeu <fernandobrscunha@gmail.com>
+Date:   Wed Nov 4 12:25:37 2020 -0300
+
+    Cadastrar avisos
+
+[33mcommit ed4f369a4f7dec97fccb0c7ece8f83c77d101ef5[m
+Author: Fernando Bartholomeu <fernandobrscunha@gmail.com>
+Date:   Wed Oct 14 14:09:16 2020 -0300
+
+    Criando a conexão com o banco de dados
+
+[33mcommit ee706c3331a3b6d58245ed45282344db74b9d2b2[m
+Author: Fernando Bartholomeu <fernandobrscunha@gmail.com>
+Date:   Wed Oct 7 13:49:54 2020 -0300
+
+    Criando a estrutura do layout e estrutura dos avisos
+
+[33mcommit 4302acf8242ca2fd29a8a5e22357d0d6bee9fd08[m
+Author: Fernando Bartholomeu <fernandobrscunha@gmail.com>
+Date:   Wed Sep 16 14:28:53 2020 -0300
+
+    Criando a estrutura do projeto
+
+[33mcommit 95edd99d6ab8532e256d07782732236ea870810b[m
+Author: Fernando Bartholomeu Reis da Silva Cunha <36249928+fernandobrscunha@users.noreply.github.com>
+Date:   Wed Sep 9 14:04:26 2020 -0300
+
+    Initial commit

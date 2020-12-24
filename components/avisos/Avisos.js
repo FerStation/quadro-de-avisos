@@ -25,7 +25,7 @@ function salvar(aviso) {
  * @returns {object} Mensagem de sucesso ou de erro
  */
 function editar(aviso, id){
-  return db('avisos').where('ID_avisos', id).update(aviso)
+  return db('avisos').where('ID_aviso', id).update(aviso)
   .then( _ => {
     return { tipo: "sucesso", corpo: "Aviso alterado com sucesso!" }
   })
@@ -40,7 +40,7 @@ function editar(aviso, id){
  * uma mensagem de erro
  */
 function selecionarTodos(){
-  return db.select('*').from('avisos')
+  return db.select('*').from('avisos').orderBy('data','DESC')
     .then(avisos =>{ return avisos })
     .catch(erro => {
       return { tipo: "erro", corpo: "Erro: " + erro }
@@ -53,7 +53,7 @@ function selecionarTodos(){
  * @returns {object} Objeto com o aviso selecionado
  */
 function selecionarAviso(id){
-  return db.select().from('avisos').where('ID_avisos',id).first()
+  return db.select().from('avisos').where('ID_aviso',id).first()
     .then(aviso => { return aviso })
     .catch(erro => {
       return { tipo: "erro", corpo: "Erro: " + erro }
@@ -65,7 +65,7 @@ function selecionarAviso(id){
  * @param {int} id Id do aviso
  */
 function excluir(id){
-  return db.del().from('avisos').where('ID_avisos',id)
+  return db.del().from('avisos').where('ID_aviso',id)
 }
 
 module.exports = {

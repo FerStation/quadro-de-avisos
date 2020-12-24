@@ -37,15 +37,15 @@
             <% avisos.forEach(aviso => { %>
 
             <tr>
-              <th scope="row"><%= aviso.ID_avisos %></th>
+              <th scope="row"><%= aviso.ID_aviso %></th>
               <td><%= aviso.titulo %></td>
               <td><%= moment(aviso.data).format("DD/MM/YYYY") %></td>
               <td>
                 <button class="btn btn-secondary" 
                         data-toggle="modal" 
                         data-target="#excluirModal"
-                        onclick="excluir(event,'<%= aviso.ID_avisos %>')">Excluir</button>
-                <a href="avisos/editar/<%= aviso.ID_avisos %>" class="btn btn-primary">Alterar</a>
+                        onclick="excluir(event,'<%= aviso.ID_aviso %>')">Excluir</button>
+                <a href="avisos/editar/<%= aviso.ID_aviso %>" class="btn btn-primary">Alterar</a>
               </td>
             </tr>
 

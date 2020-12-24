@@ -7,7 +7,7 @@
 
   <% if (typeof aviso !== 'undefined') { %>
     <% var titulo = "Alterar Aviso" %>
-    <% var rota = "/avisos/editar/"+aviso.ID_avisos %> 
+    <% var rota = "/avisos/editar/"+aviso.ID_aviso %> 
   <% } else { %>
     <% var titulo = "Novo Aviso" %>
     <% var rota = "/avisos/novo" %> 
@@ -59,7 +59,7 @@
           <% if (typeof aviso !== 'undefined') { %>
             <div class="form-group">
               <label for="titulo">ID aviso</label>
-              <input id="id" name="id" type="text" class="form-control" required value="<%= aviso.ID_avisos %>" readonly>
+              <input id="id" name="id" type="text" class="form-control" required value="<%= aviso.ID_aviso %>" readonly>
             </div>
           <% } %>
 

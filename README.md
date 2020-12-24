@@ -1,7 +1,7 @@
 # <img src="https://i.imgur.com/1d8xwBw.png" width="45" align="left">Quadro de Avisos
 Projeto final desenvolvido na disciplina Programação WEB II do Curso ETIM Desenvolvimento de sistemas ministrado na ETEC João Belarmino.
 
-O objetivo desse projeto é proporcionar ao aluno a experiência de desenvolver um projeto prático que: utiliza controle de versão, realiza conexão com banco de dados, execução de comandos SQL e persistência de dados utilizando tecnologias, linguagens e bibliotecas populares no desenvolvimento de software para WEB, como: node.js, express, knex, moment, bootstrap e Mysql.
+O objetivo desse projeto é proporcionar ao aluno a experiência de desenvolver um projeto prático que: utiliza controle de versão, realiza conexão com banco de dados, execução de comandos SQL e persistência de dados utilizando tecnologias, linguagens e bibliotecas populares no desenvolvimento de software para WEB, como: node.js, express, knex, moment, ejs, bootstrap e Mysql.
 
 As principais funções desse projeto são:
  - Cadastrar um novo aviso
@@ -14,7 +14,7 @@ As principais funções desse projeto são:
 
  1. Clone esse repositório
 ```
-https://github.com/fernandobrscunha/quadro-de-avisos.git
+git clone https://github.com/fernandobrscunha/quadro-de-avisos.git
 ```
 
 2. Instale as dependências: navegue até a pasta e execute o comando:

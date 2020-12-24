@@ -1,2 +1,1 @@
-*.html linguist-vendored
-*.ejs linguist-vendored
+*.gs linguist-language=Javascript

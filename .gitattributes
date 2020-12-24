@@ -1,1 +1,5 @@
 *.gs linguist-language=Javascript
+*.css linguist-detectable=false
+*.js linguist-detectable=true
+*.ejs linguist-detectable=false
+*.html linguist-detectable=false
